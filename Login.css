@@ -1,0 +1,49 @@
+
+body{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height :100vh;
+  margin :0;
+}
+.frnd{
+  background-color: white;
+  border-radius:5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width:300px;
+  text-align: center;
+  
+}
+
+
+form{
+  background-color: white;
+  padding:20px;
+  width: 90%;
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  flex-direction:column;
+  justify-content: center;
+  border-radius:5px;
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+  text-align: center;
+  margin-right: 10px;
+  
+}
+.submit{ 
+  background-color: green;
+}
+
+.reset{
+  background-color: violet;
+}
+
+.submit:hover{
+  color:green;
+  background-color: white;
+}
+
+.reset:hover{
+  font-size: 30px;
+}
